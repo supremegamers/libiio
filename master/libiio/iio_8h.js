@@ -60,7 +60,9 @@ var iio_8h =
       [ "IIO_EV_DIR_EITHER", "iio_8h.html#a83cbd471cf02caf975f3b2aa2e8159a5a80b08169615bd1b97b5c5b4e96eb236d", null ],
       [ "IIO_EV_DIR_RISING", "iio_8h.html#a83cbd471cf02caf975f3b2aa2e8159a5a89837f081ac01e02d6ffeafcafcfd991", null ],
       [ "IIO_EV_DIR_FALLING", "iio_8h.html#a83cbd471cf02caf975f3b2aa2e8159a5ae096a7091661033528807767030db614", null ],
-      [ "IIO_EV_DIR_NONE", "iio_8h.html#a83cbd471cf02caf975f3b2aa2e8159a5a07d4f9bc4ecfa57deba56982ac247453", null ]
+      [ "IIO_EV_DIR_NONE", "iio_8h.html#a83cbd471cf02caf975f3b2aa2e8159a5a07d4f9bc4ecfa57deba56982ac247453", null ],
+      [ "IIO_EV_DIR_SINGLETAP", "iio_8h.html#a83cbd471cf02caf975f3b2aa2e8159a5a480c635e37548e5cd20682ca3101bf22", null ],
+      [ "IIO_EV_DIR_DOUBLETAP", "iio_8h.html#a83cbd471cf02caf975f3b2aa2e8159a5aac208d43e14da755b80f559ccf3a4e06", null ]
     ] ],
     [ "iio_event_type", "iio_8h.html#a1189a8c40b39015a6dd476ec89fdaa2b", [
       [ "IIO_EV_TYPE_THRESH", "iio_8h.html#a1189a8c40b39015a6dd476ec89fdaa2ba97cd1e9ef3244dda28369981fae353ff", null ],
@@ -68,7 +70,9 @@ var iio_8h =
       [ "IIO_EV_TYPE_ROC", "iio_8h.html#a1189a8c40b39015a6dd476ec89fdaa2ba0e02cdfb74a5211742224e1006045a3f", null ],
       [ "IIO_EV_TYPE_THRESH_ADAPTIVE", "iio_8h.html#a1189a8c40b39015a6dd476ec89fdaa2baf141c774c3b2535b4676018d7f7bb6d4", null ],
       [ "IIO_EV_TYPE_MAG_ADAPTIVE", "iio_8h.html#a1189a8c40b39015a6dd476ec89fdaa2ba45d8240f4e6a514f68af5fdac372a546", null ],
-      [ "IIO_EV_TYPE_CHANGE", "iio_8h.html#a1189a8c40b39015a6dd476ec89fdaa2ba05373ad451bdf12b9a7f61f95928cfc7", null ]
+      [ "IIO_EV_TYPE_CHANGE", "iio_8h.html#a1189a8c40b39015a6dd476ec89fdaa2ba05373ad451bdf12b9a7f61f95928cfc7", null ],
+      [ "IIO_EV_TYPE_MAG_REFERENCED", "iio_8h.html#a1189a8c40b39015a6dd476ec89fdaa2ba381377245c1d256690cff8fb3d57db6e", null ],
+      [ "IIO_EV_TYPE_GESTURE", "iio_8h.html#a1189a8c40b39015a6dd476ec89fdaa2ba4502d177f359eaa30285610162a8fd65", null ]
     ] ],
     [ "iio_modifier", "iio_8h.html#a944ad22f426e09cdbb493081a05472e5", [
       [ "IIO_NO_MOD", "iio_8h.html#a944ad22f426e09cdbb493081a05472e5abb2252736b4c8db2ad9d6370b2f0a374", null ],
@@ -115,7 +119,13 @@ var iio_8h =
       [ "IIO_MOD_PM10", "iio_8h.html#a944ad22f426e09cdbb493081a05472e5a966ef2769fc1583c915ebcf2594e9796", null ],
       [ "IIO_MOD_ETHANOL", "iio_8h.html#a944ad22f426e09cdbb493081a05472e5a4cdbbdef05577af0c7e76955386bfc24", null ],
       [ "IIO_MOD_H2", "iio_8h.html#a944ad22f426e09cdbb493081a05472e5a7193894c2110fb344ecc2c87b3844a1c", null ],
-      [ "IIO_MOD_O2", "iio_8h.html#a944ad22f426e09cdbb493081a05472e5a10b4777a27432575f07f268f7744a500", null ]
+      [ "IIO_MOD_O2", "iio_8h.html#a944ad22f426e09cdbb493081a05472e5a10b4777a27432575f07f268f7744a500", null ],
+      [ "IIO_MOD_LINEAR_X", "iio_8h.html#a944ad22f426e09cdbb493081a05472e5a182093f275b49ce06dd401bb20b21118", null ],
+      [ "IIO_MOD_LINEAR_Y", "iio_8h.html#a944ad22f426e09cdbb493081a05472e5a35ce1737eba2e92a7d148ca62fe09aa6", null ],
+      [ "IIO_MOD_LINEAR_Z", "iio_8h.html#a944ad22f426e09cdbb493081a05472e5a915085628342294d7046e2ef0d135d65", null ],
+      [ "IIO_MOD_PITCH", "iio_8h.html#a944ad22f426e09cdbb493081a05472e5abff420ab1ae209a8a16371927b0e2dff", null ],
+      [ "IIO_MOD_YAW", "iio_8h.html#a944ad22f426e09cdbb493081a05472e5a2fdaddfa354a767727f3dea54428b010", null ],
+      [ "IIO_MOD_ROLL", "iio_8h.html#a944ad22f426e09cdbb493081a05472e5a39d6b746938d3121ff460c40563c98a7", null ]
     ] ],
     [ "iio_buffer_cancel", "group__Buffer.html#ga0e42431688750313cfa077ab4f6e0282", null ],
     [ "iio_buffer_destroy", "group__Buffer.html#gaba58dc2780be63fead6f09397ce90d10", null ],

@@ -232,6 +232,13 @@ Enumerations</h2></td></tr>
 , <b>IIO_MOD_H2</b>
 , <br />
 &#160;&#160;<b>IIO_MOD_O2</b>
+, <b>IIO_MOD_LINEAR_X</b>
+, <b>IIO_MOD_LINEAR_Y</b>
+, <b>IIO_MOD_LINEAR_Z</b>
+, <br />
+&#160;&#160;<b>IIO_MOD_PITCH</b>
+, <b>IIO_MOD_YAW</b>
+, <b>IIO_MOD_ROLL</b>
 <br />
  }</td></tr>
 <tr class="memdesc:a944ad22f426e09cdbb493081a05472e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">IIO channel modifier.  <a href="iio_8h.html#a944ad22f426e09cdbb493081a05472e5">More...</a><br /></td></tr>
@@ -244,14 +251,21 @@ Enumerations</h2></td></tr>
 , <br />
 &#160;&#160;<b>IIO_EV_TYPE_MAG_ADAPTIVE</b>
 , <b>IIO_EV_TYPE_CHANGE</b>
+, <b>IIO_EV_TYPE_MAG_REFERENCED</b>
+, <b>IIO_EV_TYPE_GESTURE</b>
 <br />
  }</td></tr>
 <tr class="memdesc:a1189a8c40b39015a6dd476ec89fdaa2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">IIO event type.  <a href="iio_8h.html#a1189a8c40b39015a6dd476ec89fdaa2b">More...</a><br /></td></tr>
 <tr class="separator:a1189a8c40b39015a6dd476ec89fdaa2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83cbd471cf02caf975f3b2aa2e8159a5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="iio_8h.html#a83cbd471cf02caf975f3b2aa2e8159a5">iio_event_direction</a> { <b>IIO_EV_DIR_EITHER</b>
+<tr class="memitem:a83cbd471cf02caf975f3b2aa2e8159a5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="iio_8h.html#a83cbd471cf02caf975f3b2aa2e8159a5">iio_event_direction</a> { <br />
+&#160;&#160;<b>IIO_EV_DIR_EITHER</b>
 , <b>IIO_EV_DIR_RISING</b>
 , <b>IIO_EV_DIR_FALLING</b>
 , <b>IIO_EV_DIR_NONE</b>
+, <br />
+&#160;&#160;<b>IIO_EV_DIR_SINGLETAP</b>
+, <b>IIO_EV_DIR_DOUBLETAP</b>
+<br />
  }</td></tr>
 <tr class="memdesc:a83cbd471cf02caf975f3b2aa2e8159a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">IIO event direction.  <a href="iio_8h.html#a83cbd471cf02caf975f3b2aa2e8159a5">More...</a><br /></td></tr>
 <tr class="separator:a83cbd471cf02caf975f3b2aa2e8159a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
